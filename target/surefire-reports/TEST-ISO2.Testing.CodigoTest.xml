@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="34" failures="0" name="ISO2.Testing.CodigoTest" time="0.014" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\laura\eclipse-workspace2\Testing"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\laura\eclipse-workspace2\Testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\laura\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\laura\eclipse-workspace2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6188631086189699358.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-13.0.2/bin/server;C:/Program Files/Java/jdk-13.0.2/bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\AutoFirma\AutoFirma;C:\MinGW\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\Git\cmd;D:\Informatica\Laura\3\Repositorios\ipo\apache-maven-3.8.3\bin;C:\Program Files\dotnet\;;C:\Users\laura\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\laura\.dotnet\tools;C:\WINDOWS\system32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\laura"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="laura"/>
+    <property name="java.class.path" value="C:\Users\laura\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B site:site"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\laura\eclipse-workspace2\Testing\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad2" time="0.005"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad3" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad4" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad5" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad6" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad7" time="0.001"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad8" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad9" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testAdecuacionFuncional2" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testAdecuacionFuncional3" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testAdecuacionFuncional4" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testAdecuacionFuncional5" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testAdecuacionFuncional6" time="0.001"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testAdecuacionFuncional7" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal10" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal11" time="0.001"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal12" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal13" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal14" time="0.001"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal15" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal16" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal17" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMantenibilidad" time="0.001"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testMain" time="0.002"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal" time="0.001"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal2" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal3" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal4" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal5" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal6" time="0.001"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal7" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal8" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testCalidadGlobal9" time="0"/>
+  <testcase classname="ISO2.Testing.CodigoTest" name="testAdecuacionFuncional" time="0"/>
+</testsuite>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Codigo.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Practica Testing - Ingenieria de Software II</a> &gt; <a href="index.source.html" class="el_package">ISO2.Testing</a> &gt; <span class="el_source">Codigo.java</span></div><h1>Codigo.java</h1><pre class="source lang-java linenums">package ISO2.Testing;
+
+<span class="fc" id="L3">public class Codigo {</span>
+
+    public static int adecuacionFuncional(int comFun, int corFun, int perFun){
+    	//Tabla de completitud Funcional
+<span class="fc bfc" id="L7" title="All 4 branches covered.">    	if(comFun &gt;= 0 &amp;&amp; comFun &lt;10) comFun= 0;</span>
+<span class="fc bfc" id="L8" title="All 4 branches covered.">    	else if(comFun &gt;= 10  &amp;&amp; comFun &lt;35) comFun= 1;</span>
+<span class="fc bfc" id="L9" title="All 4 branches covered.">    	else if(comFun &gt;=  35 &amp;&amp; comFun &lt;70) comFun= 2;</span>
+<span class="fc bfc" id="L10" title="All 4 branches covered.">    	else if(comFun &gt;= 70  &amp;&amp; comFun &lt;90) comFun= 3;</span>
+<span class="fc bfc" id="L11" title="All 4 branches covered.">    	else if(comFun &gt;= 90  &amp;&amp; comFun &lt;=100) comFun= 4;</span>
+<span class="fc" id="L12">    	else comFun = -1;</span>
+
+    	//Tabla de correccion Funcional
+<span class="fc bfc" id="L15" title="All 4 branches covered.">    	if(corFun &gt;= 0  &amp;&amp; corFun &lt;10) corFun= 0;</span>
+<span class="fc bfc" id="L16" title="All 4 branches covered.">    	else if(corFun &gt;= 10  &amp;&amp; corFun &lt;50) corFun= 1;</span>
+<span class="fc bfc" id="L17" title="All 4 branches covered.">    	else if(corFun &gt;=  50 &amp;&amp; corFun &lt;70) corFun= 2;</span>
+<span class="fc bfc" id="L18" title="All 4 branches covered.">    	else if(corFun &gt;= 70  &amp;&amp; corFun &lt;90) corFun= 3;</span>
+<span class="fc bfc" id="L19" title="All 4 branches covered.">    	else if(corFun &gt;= 90  &amp;&amp; corFun &lt;=100) corFun= 5;</span>
+<span class="fc" id="L20">    	else corFun = -1;</span>
+
+    	//Tabla de pertinencia Funcional
+<span class="fc bfc" id="L23" title="All 4 branches covered.">    	if(perFun &gt;= 0  &amp;&amp; perFun &lt;10) perFun= 0;</span>
+<span class="fc bfc" id="L24" title="All 4 branches covered.">    	else if(perFun &gt;= 10  &amp;&amp; perFun &lt;50) perFun= 2;</span>
+<span class="fc bfc" id="L25" title="All 4 branches covered.">    	else if(perFun &gt;=  50 &amp;&amp; perFun &lt;70) perFun= 3;</span>
+<span class="fc bfc" id="L26" title="All 4 branches covered.">    	else if(perFun &gt;= 70  &amp;&amp; perFun &lt;90) perFun= 4;</span>
+<span class="fc bfc" id="L27" title="All 4 branches covered.">    	else if(perFun &gt;= 90  &amp;&amp; perFun &lt;=100) perFun= 5;</span>
+<span class="fc" id="L28">    	else perFun = -1;</span>
+
+<span class="fc" id="L30">    	int min = Math.min(Math.min(comFun, corFun), perFun);</span>
+<span class="fc" id="L31">    	return min;</span>
+
+    }
+    
+	public static int mantenibilidad(int mod, int reu, int ana, int capMod, int capProb){
+		//Tabla de modularidad
+<span class="fc bfc" id="L37" title="All 4 branches covered.">		if(mod &gt;= 0  &amp;&amp; mod &lt; 10) mod = 0;</span>
+<span class="fc bfc" id="L38" title="All 4 branches covered.">		else if(mod &gt;= 10  &amp;&amp; mod &lt; 35) mod = 1;</span>
+<span class="fc bfc" id="L39" title="All 4 branches covered.">		else if(mod &gt;= 35 &amp;&amp; mod &lt; 70) mod = 2;</span>
+<span class="fc bfc" id="L40" title="All 4 branches covered.">		else if(mod &gt;= 70  &amp;&amp; mod &lt; 90) mod = 3;</span>
+<span class="fc bfc" id="L41" title="All 4 branches covered.">		else if(mod &gt;= 90  &amp;&amp; mod &lt;= 100) mod = 4;</span>
+<span class="fc" id="L42">		else mod = -1;</span>
+
+		//Tabla de reusabilidad
+<span class="fc bfc" id="L45" title="All 4 branches covered.">		if(reu &gt;= 0  &amp;&amp; reu &lt; 10) reu = 0;</span>
+<span class="fc bfc" id="L46" title="All 4 branches covered.">		else if(reu &gt;= 10  &amp;&amp; reu &lt; 35) reu = 1;</span>
+<span class="fc bfc" id="L47" title="All 4 branches covered.">		else if(reu &gt;= 35 &amp;&amp; reu &lt; 70) reu = 2;</span>
+<span class="fc bfc" id="L48" title="All 4 branches covered.">		else if(reu &gt;= 70  &amp;&amp; reu &lt; 90) reu = 3;</span>
+<span class="fc bfc" id="L49" title="All 4 branches covered.">		else if(reu &gt;= 90  &amp;&amp; reu &lt;= 100) reu = 5;</span>
+<span class="fc" id="L50">		else reu = -1;</span>
+
+		//Tabla de analizabilidad
+<span class="fc bfc" id="L53" title="All 4 branches covered.">		if(ana &gt;= 0  &amp;&amp; ana &lt; 35) ana = 0;</span>
+<span class="fc bfc" id="L54" title="All 4 branches covered.">		else if(ana &gt;= 35  &amp;&amp; ana &lt; 50) ana = 1;</span>
+<span class="fc bfc" id="L55" title="All 4 branches covered.">		else if(ana &gt;= 50 &amp;&amp; ana &lt; 70) ana = 2;</span>
+<span class="fc bfc" id="L56" title="All 4 branches covered.">		else if(ana &gt;= 70  &amp;&amp; ana &lt; 90) ana = 3;</span>
+<span class="fc bfc" id="L57" title="All 4 branches covered.">		else if(ana &gt;= 90  &amp;&amp; ana &lt;= 100) ana = 5;</span>
+<span class="fc" id="L58">		else ana = -1;</span>
+
+		//Tabla de capacidad de ser modificado
+<span class="fc bfc" id="L61" title="All 4 branches covered.">		if(capMod &gt;= 0  &amp;&amp; capMod &lt; 10) capMod = 0;</span>
+<span class="fc bfc" id="L62" title="All 4 branches covered.">		else if(capMod &gt;= 10  &amp;&amp; capMod &lt; 35) capMod = 1;</span>
+<span class="fc bfc" id="L63" title="All 4 branches covered.">		else if(capMod &gt;= 35  &amp;&amp; capMod &lt; 50) capMod = 2;</span>
+<span class="fc bfc" id="L64" title="All 4 branches covered.">		else if(capMod &gt;= 50 &amp;&amp; capMod &lt; 70) capMod = 3;</span>
+<span class="fc bfc" id="L65" title="All 4 branches covered.">		else if(capMod &gt;= 70  &amp;&amp; capMod &lt; 90) capMod = 4;</span>
+<span class="fc bfc" id="L66" title="All 4 branches covered.">		else if(capMod &gt;= 90  &amp;&amp; capMod &lt;= 100) capMod = 5;</span>
+<span class="fc" id="L67">		else capMod = -1;</span>
+
+		//Tabla de capacidad de ser probado
+<span class="fc bfc" id="L70" title="All 4 branches covered.">		if(capProb &gt;= 0  &amp;&amp; capProb &lt; 10) capProb = 0;</span>
+<span class="fc bfc" id="L71" title="All 4 branches covered.">		else if(capProb &gt;= 10  &amp;&amp; capProb &lt; 50) capProb =1;</span>
+<span class="fc bfc" id="L72" title="All 4 branches covered.">		else if(capProb &gt;= 50 &amp;&amp; capProb &lt; 70) capProb = 2;</span>
+<span class="fc bfc" id="L73" title="All 4 branches covered.">		else if(capProb &gt;= 70  &amp;&amp; capProb &lt;= 100) capProb = 4;</span>
+<span class="fc" id="L74">		else capProb = -1;</span>
+
+<span class="fc" id="L76">		int min = Math.min(Math.min(mod, Math.min(reu, Math.min(ana, capMod))), capProb);</span>
+<span class="fc" id="L77">		return min;</span>
+	}
+	
+
+	public static int calidadGlobal(int man, int ade){
+
+<span class="fc bfc" id="L83" title="All 10 branches covered.">		if((man &gt;=1 &amp;&amp; man&lt;=5 &amp;&amp; ade== 1) || (ade==2 &amp;&amp; man == 1)) return 1;</span>
+<span class="fc bfc" id="L84" title="All 12 branches covered.">		else if((man &gt;=2 &amp;&amp; man&lt;=5 &amp;&amp; ade== 2) || (ade==3 &amp;&amp; (man==1 || man== 2))) return 2;</span>
+<span class="pc bpc" id="L85" title="1 of 18 branches missed.">		else if((man &gt;=3 &amp;&amp; man&lt;=5 &amp;&amp; ade== 3) || (ade==4 &amp;&amp; man&gt;=1 &amp;&amp; man&lt;=3) || (ade == 5 &amp;&amp; (man==1 || man== 2))) return 3;</span>
+<span class="fc bfc" id="L86" title="All 14 branches covered.">		else if((man==5 &amp;&amp; ade== 4) || (ade==5 &amp;&amp; (man==3 || man== 4)) || (ade == 4 &amp;&amp; man == 4)) return 4;</span>
+<span class="fc bfc" id="L87" title="All 4 branches covered.">		else if(man == 5 &amp;&amp; ade == 5) return 5;</span>
+		
+<span class="fc" id="L89">		return -1;</span>
+
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
